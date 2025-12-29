@@ -29,7 +29,7 @@ button {
 }
 
 .main-box {
-    background: url(img/kia-background.png) no-repeat center / cover;
+    background: url(/기아타이거즈-역사관/img/kia-background.png) no-repeat center / cover;
     padding-bottom: 100px;
     margin-bottom: 50px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
@@ -51,7 +51,7 @@ button {
     border-radius: 20px;
 
     .history-logo {
-        background-image: url(/img/KIA-logo.svg);
+        background-image: url(img/KIA-logo.svg);
         background-size: 100%;
         background-repeat: no-repeat;
         width: 75px; height: 55px;
