@@ -26,6 +26,10 @@
     font-family: 'Pretendard-Regular';
 }
 
+body {
+    overflow-x: hidden;
+}
+
 li {
     list-style-type: none;
 }
@@ -202,7 +206,7 @@ button {
                 top: .5rem;
                 transform: rotate(180deg);
                 width: 1rem; height: 1rem;
-                background: url(/img/language.png) no-repeat center / 100%;
+                background: url(/nhnace/img/language.png) no-repeat center / 100%;
                 transition: .3s;
             }
         }
@@ -247,7 +251,7 @@ button {
             display: block;
             width: 2.4rem;
             height: 2.4rem;
-            background-image: url(/img/menu.png);
+            background-image: url(/nhnace/img/menu.png);
             background-position: center;
             background-size: 100%;
         }
@@ -724,7 +728,6 @@ button {
         position: absolute;
         bottom: 9rem;
         right: 9rem;
-        background-color: #81ff33;
         z-index: 999;
 
         .header-pagination {
@@ -782,7 +785,7 @@ button {
     .header-prev {
         background-color: #f4f5f6;
         top: 1.6rem;
-        background-image: url(/img/NHN-PREV.png);
+        background-image: url(/nhnace/img/NHN-PREV.png);
         background-size: 80%;
         background-position: center;
         background-repeat: no-repeat;
@@ -791,7 +794,7 @@ button {
     .header-next {
         background-color: #000;
         bottom: 0;
-        background-image: url(/img/NHN-NEXT.png);
+        background-image: url(/nhnace/img/NHN-NEXT.png);
         background-size: 80%;
         background-position: center;
         background-repeat: no-repeat;
@@ -858,7 +861,7 @@ button {
             position: absolute;
             top: 50%; transform: translateY(-50%);
             margin-left: 1.8rem;
-            background: url(/img/link.png) no-repeat center / 100%;
+            background: url(/nhnace/img/link.png) no-repeat center / 100%;
         }
     }
 }
@@ -875,7 +878,7 @@ button {
             position: absolute;
             top: 50%; transform: translateY(-50%);
             margin-left: 1.8rem;
-            background: url(/img/download.png) no-repeat center / 100%;
+            background: url(/nhnace/img/download.png) no-repeat center / 100%;
         }
     }
 }
@@ -900,7 +903,7 @@ button {
     position: absolute;
     cursor: pointer;
     
-    background-image: url(/img/NHN-NEXT.png);
+    background-image: url(/nhnace/img/NHN-NEXT.png);
     background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
@@ -1045,7 +1048,7 @@ button {
                 content: "";
                 transition: .3s;
                 position: absolute;
-                background: url(/img/language.png) center / 100%;
+                background: url(/nhnace/img/language.png) center / 100%;
                 transform: translateY(-50%) rotate(-180deg);
                 width: .9rem;
                 height: .9rem;
@@ -1058,7 +1061,7 @@ button {
             &::before {
                 content: "";
                 position: absolute;
-                background: url(/img/language.png) center / 100%;
+                background: url(/nhnace/img/language.png) center / 100%;
                 transform: translateY(-50%);
                 width: .9rem;
                 height: .9rem;
