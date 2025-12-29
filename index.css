@@ -268,7 +268,7 @@ main {
         li {
             width: calc(50% - 2.5rem);
 
-            a {
+            .site-img {
                 background-color: #5c5c5c;
                 display: block;
                 width: 60rem;
@@ -294,13 +294,16 @@ main {
                     width: auto;
                 }
 
-                button {
+                .link-btn {
+                    display: block;
                     line-height: 2;
+                    font-size: 1.4rem;
                     padding: .5rem;
                     margin: 1rem 0;
                     cursor: pointer;
                     background-color: #fff;
                     border: 1px solid #222;
+                    color: #222;
 
                     &:hover {
                         background-color: #222;
