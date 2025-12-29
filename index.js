@@ -90,17 +90,33 @@ homeBtn.addEventListener("click", () => {
 });
 
 aboutBtn.addEventListener("click", () => {
-    window.scrollTo({
-        top: 900, // 이동할 y 좌표
-        left: 0,    // 이동할 x 좌표
+    const target = document.querySelector(".about");
+
+    target.scrollIntoView({
         behavior: "smooth",
+        block: "start" // 요소의 시작 지점으로
     });
 });
 
 portBtn.addEventListener("click", () => {
-    window.scrollTo({
-        top: 1900, // 이동할 y 좌표
-        left: 0,    // 이동할 x 좌표
+    const target = document.querySelector(".portfolio");
+
+    target.scrollIntoView({
         behavior: "smooth",
+        block: "start" // 요소의 시작 지점으로
     });
 });
+
+
+gsap.from('.portfolio-list', {
+    scrollTrigger: {
+        trigger:'.portfolio',
+        start:'top 80%',
+        toggleActions: 'play reverse play reverse',
+    },
+
+    duration:1,
+    opacity: 0,
+    delay:1,
+    ease:'power3.inout',
+})
