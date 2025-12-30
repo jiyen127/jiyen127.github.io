@@ -32,7 +32,7 @@ button {
     background: url(/기아타이거즈-역사관/img/kia-background.png) no-repeat center / cover;
     padding-bottom: 100px;
     margin-bottom: 50px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 1); */
 }
 
 .history-wrap {
@@ -250,7 +250,7 @@ button {
     }
 }
 
-.history-eight button {
+.history-year button {
     width: 85px;
 }
 
@@ -292,6 +292,18 @@ button {
 
             &:nth-child(2) .history-thumb {
                 background-image: url(img/img_1983_01.jpg);
+            }
+
+            &:nth-child(3) .history-thumb {
+                background-image: url(img/img_1982_02.jpg);
+            }
+
+            &:nth-child(4) .history-thumb {
+                background-image: url(img/img_1982_03.jpg);
+            }
+
+            &:nth-child(5) .history-thumb {
+                background-image: url(img/img_1982_04.jpg);
             }
         }
     }
